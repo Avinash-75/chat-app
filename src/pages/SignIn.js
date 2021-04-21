@@ -15,9 +15,9 @@ const SignIn = () => {
         });
       }
 
-      Alert.success('Signed In successfully', 3000);
+      Alert.success('Signed In successfully', 5000);
     } catch (err) {
-      Alert.error(err.message, 3000);
+      Alert.error(err.message, 5000);
     }
   };
   const onFacebookSignIn = () => {
