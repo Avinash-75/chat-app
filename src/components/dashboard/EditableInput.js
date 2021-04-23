@@ -10,14 +10,14 @@ const EditableInput = ({
   ...inputProps
 }) => {
   const [input, setInput] = useState(initialValue);
-  const [isEditable, setIsEdidable] = useState(false);
+  const [isEditable, setIsEditable] = useState(false);
 
   const onInputChange = useCallback(value => {
     setInput(value);
   }, []);
 
   const onEditCLick = useCallback(() => {
-    setIsEdidable(p => !p);
+    setIsEditable(p => !p);
     setInput(initialValue);
   }, [initialValue]);
 
@@ -31,6 +31,8 @@ const EditableInput = ({
     if (trimmed !== initialValue) {
       await onSave(trimmed);
     }
+
+    setIsEditable(false);
   };
 
   return (
