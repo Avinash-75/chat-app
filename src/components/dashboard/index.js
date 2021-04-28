@@ -2,8 +2,8 @@ import React from 'react';
 import { Alert, Button, Divider, Drawer } from 'rsuite';
 import { useProfile } from '../../context/profile.context';
 import { database } from '../../misc/firebase';
+import EditableInput from '../EditableInput';
 import AvatarUploadBtn from './AvatarUploadBtn';
-import EditableInput from './EditableInput';
 import ProviderBlock from './ProviderBlock';
 
 const Dashboard = ({ onSignOut }) => {
