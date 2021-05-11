@@ -1,4 +1,3 @@
-/* eslint-disable no-constant-condition */
 import React from 'react';
 import { Badge, Icon, IconButton, Tooltip, Whisper } from 'rsuite';
 
