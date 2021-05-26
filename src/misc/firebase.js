@@ -8,13 +8,13 @@ import 'firebase/functions';
 import { isLocalhost } from './helpers';
 
 const config = {
-  apiKey: 'AIzaSyDL-Uwb-vhNuf_TTT3h7jFiGTExBZlQwh0',
-  authDomain: 'chat-web-app-73dd5.firebaseapp.com',
-  databaseURL: 'https://chat-web-app-73dd5-default-rtdb.firebaseio.com',
-  projectId: 'chat-web-app-73dd5',
-  storageBucket: 'chat-web-app-73dd5.appspot.com',
-  messagingSenderId: '627225084584',
-  appId: '1:627225084584:web:0b63f6912a7fe05842f89d',
+  apiKey: "AIzaSyB6LlZbKKXDo6dIA6Petoma0k-0jTN5k9o",
+  authDomain: "recess-chats.firebaseapp.com",
+  projectId: "recess-chats",
+  storageBucket: "recess-chats.appspot.com",
+  messagingSenderId: "765364169038",
+  appId: "1:765364169038:web:006c262f83091ff75e561f",
+  measurementId: "G-1QJGSPHP2N",
 };
 
 const app = firebase.initializeApp(config);
